@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quincy Bareebe for Congress</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                yellow: '#e1bb23',
+                navy: '#203365',
+              }
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+              serif: ['Montserrat', 'sans-serif'],
+            },
+            fontSize: {
+              'base': ['21px', '34px'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+            font-size: 21px;
+            line-height: 34px;
+        }
+        /* Global Heading Spacing Update */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 0.1em !important; /* Increased space between characters globally */
+        }
+        .quote-font {
+            font-family: 'Montserrat', sans-serif;
+        }
+        /* Global default reset */
+        p, li, span:not([class*="text-"]):not(.name-highlight), div:not([class*="text-"]) {
+            font-size: 21px;
+            line-height: 34px;
+        }
+        
+        /* Specific content override class for targeted pages */
+        .content-body-text {
+            font-size: 20px !important;
+            line-height: 32px !important;
+            font-weight: 400 !important;
+        }
+
+        /* Dedicated style for About Us page (Increased for aging eyes, now left-aligned) */
+        .about-body-text {
+            font-size: 36px !important;
+            line-height: 52px !important;
+            font-weight: 500 !important;
+            text-align: left !important;
+        }
+
+        .hero-gradient {
+          background: linear-gradient(90deg, #203365 0%, #203365 60%, rgba(32, 51, 101, 0.8) 100%);
+        }
+        .name-highlight {
+            font-weight: 900;
+            display: inline-block;
+            vertical-align: baseline;
+            letter-spacing: -0.02em;
+        }
+
+        /* Mobile adjustments to ensure the large text scales gracefully on small devices */
+        @media (max-width: 768px) {
+            .about-body-text {
+                font-size: 28px !important;
+                line-height: 40px !important;
+            }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white text-brand-navy">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
