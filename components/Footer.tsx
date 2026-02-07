@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
               <div className="h-1 w-20 md:w-28 bg-brand-yellow mx-auto md:mx-0"></div>
             </div>
             <div className="mb-8 md:mb-10">
-              <a href="mailto:info@quincyforcongress.com" className="text-lg md:text-xl font-extrabold mb-1 md:mb-2 tracking-tighter italic block hover:text-brand-yellow transition-colors">Click Here to Email the Campaign</a>
+              <a href="mailto:info@quincyforcongress.com" className="text-lg md:text-xl font-extrabold mb-1 md:mb-2 tracking-tighter italic block hover:text-brand-yellow transition-colors">Click Here to email the Campaign</a>
               <p className="text-lg md:text-xl font-extrabold mb-6 md:mb-8 tracking-tighter">443-741-0604</p>
             </div>
           </div>
