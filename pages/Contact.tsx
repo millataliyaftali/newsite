@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
                 <div className="space-y-8">
                   <div className="group">
                     <a href="mailto:info@quincyforcongress.com" className="text-2xl md:text-3xl font-black text-brand-navy hover:text-brand-yellow transition-colors tracking-tighter block">
-                      Click here to Email the Campaign
+                      Click here to email the Campaign
                     </a>
                   </div>
                   
