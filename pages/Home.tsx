@@ -147,7 +147,7 @@ const Home: React.FC = () => {
                 <span className="absolute -top-4 -right-4 text-[90px] sm:text-[110px] md:text-[140px] lg:text-[170px] font-black text-brand-navy opacity-[0.07] leading-none select-none z-0">01</span>
                 <div className="flex-grow flex items-center">
                   <h3 className={goldBoxTitleStyle}>
-                    Quality Affordable<span className="hidden md:inline"><br /></span>Healthcare for Families<span className="hidden md:inline"><br /></span>and Seniors
+                    Quality Affordable<span className="hidden md:inline"><br /></span>Healthcare For Families<span className="hidden md:inline"><br /></span>and Seniors
                   </h3>
                 </div>
                 <div className="h-2 w-16 md:w-20 bg-brand-navy mt-4 relative z-10"></div>
