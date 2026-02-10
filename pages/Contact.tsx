@@ -178,7 +178,7 @@ const Contact: React.FC = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-white/5 skew-x-12 transform -translate-x-1/2"></div>
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold uppercase leading-[1.1] tracking-tight mb-8">
-            WANT TO <span className="text-brand-yellow font-extrabold">GET INVOLVED</span> TODAY?
+             <span className="text-brand-yellow font-extrabold">GET INVOLVED</span> TODAY
           </h2>
           <p className="text-lg md:text-2xl font-normal opacity-80 uppercase tracking-widest mb-12 max-w-3xl mx-auto">
             Our grassroots movement is built one person at a time. Join us in making history.
