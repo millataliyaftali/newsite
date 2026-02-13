@@ -223,7 +223,7 @@ const Home: React.FC = () => {
                 </span>
                 <div className="flex-grow flex items-center">
                   <h3 className={goldBoxTitleStyle}>
-                    Making Our Lives More Affordable
+                    Making Our Lives More Affordability
                   </h3>
                 </div>
                 <div className="h-2 w-16 md:w-20 bg-brand-navy mt-4 relative z-10"></div>
@@ -248,6 +248,23 @@ const Home: React.FC = () => {
                 <div className="h-2 w-16 md:w-20 bg-brand-navy mt-4 relative z-10"></div>
               </div>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* NEW VIDEO SECTION: ADDED BELOW GOLD BOXES */}
+      <section className="bg-white pb-12 md:pb-20 lg:pb-28">
+        <div className="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative w-full aspect-video shadow-[16px_16px_0px_0px_#203365] md:shadow-[24px_24px_0px_0px_#203365] border-2 md:border-4 border-brand-navy bg-black overflow-hidden group">
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.youtube-nocookie.com/embed/tRg_OPTn0V4?rel=0&modestbranding=1"
+              title="Quincy Bareebe for Congress"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </section>
@@ -697,7 +714,7 @@ const Home: React.FC = () => {
                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-brand-navy uppercase leading-tight border-l-4 md:border-l-8 border-brand-yellow pl-5 md:pl-8 py-2 tracking-tight">
                   Fuel our fight: every dollar helps us protect working
                   families, seniors, and farms. Your contribution powers our
-                  ability to communicate our message of affordable.
+                  ability to communicate our message of affordability.
                 </p>
               </div>
 
