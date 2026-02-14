@@ -1,22 +1,21 @@
-
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Issues from './pages/Issues';
-import TakeAction from './pages/TakeAction';
-import Contact from './pages/Contact';
-import Privacy from './pages/Privacy';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GetInvolvedModal from './components/GetInvolvedModal';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Issues from "./pages/Issues";
+import TakeAction from "./pages/TakeAction";
+import Contact from "./pages/Contact";
+import Privacy from "./pages/Privacy";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import GetInvolvedModal from "./components/GetInvolvedModal";
 
 const App: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     // Show Get Involved modal immediately on load as requested
-    setIsModalOpen(true);
+    // setIsModalOpen(true); // Temporarily hidden as per user request
   }, []);
 
   return (
@@ -35,7 +34,10 @@ const App: React.FC = () => {
           </Routes>
         </main>
         <Footer />
-        <GetInvolvedModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+        <GetInvolvedModal
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+        />
       </div>
     </BrowserRouter>
   );
@@ -51,10 +53,10 @@ const ScrollToTop = () => {
     } else {
       // Small delay to ensure the page is rendered before scrolling to the hash
       const scrollWithDelay = () => {
-        const id = hash.replace('#', '');
+        const id = hash.replace("#", "");
         const element = document.getElementById(id);
         if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
+          element.scrollIntoView({ behavior: "smooth" });
         }
       };
 

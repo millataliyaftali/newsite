@@ -227,7 +227,7 @@ const Home: React.FC = () => {
                 </span>
                 <div className="flex-grow flex items-center">
                   <h3 className={goldBoxTitleStyle}>
-                    Making Our Lives More Affordabable
+                    Making Our Lives More Affordability
                   </h3>
                 </div>
                 <div className="h-2 w-16 md:w-20 bg-brand-navy mt-4 relative z-10"></div>
@@ -256,13 +256,13 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* NEW VIDEO SECTION: ADDED BELOW GOLD BOXES */}
+      {/* NEW VIDEO SECTION: ENABLED AUTOPLAY */}
       <section className="bg-white pb-12 md:pb-20 lg:pb-28">
         <div className="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative w-full aspect-video shadow-[16px_16px_0px_0px_#203365] md:shadow-[24px_24px_0px_0px_#203365] border-2 md:border-4 border-brand-navy bg-black overflow-hidden group">
             <iframe
               className="absolute inset-0 w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/tRg_OPTn0V4?rel=0&modestbranding=1"
+              src="https://www.youtube-nocookie.com/embed/tRg_OPTn0V4?autoplay=1&mute=1&rel=0&modestbranding=1"
               title="Quincy Bareebe for Congress"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -311,7 +311,7 @@ const Home: React.FC = () => {
                     {issue}
                   </span>
                   <div className="w-6 h-6 sm:w-7 sm:h-7 border-2 border-white/40 group-hover:border-brand-yellow flex items-center justify-center transition-colors">
-                    <div className="w-3 h-3 sm:w-4 sm:h-4 bg-brand-yellow opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <div className="w-3 h-3 sm:w-4 h-4 bg-brand-yellow opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   </div>
                 </button>
               ))}
